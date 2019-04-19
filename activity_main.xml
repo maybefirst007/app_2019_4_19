@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    >
+<!--orientation分割每个单元快-->
+<!--gravity水平上下居中-->
+<!--宽和高必须定义-->
+<!--match_parent自适应沾满-->
+<!--text定义内容-->
+<!--textSize定义大小-->
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="河南朗博"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登陆"
+        />
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        />
+
+    <TextView
+        android:id="@+id/text_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+</LinearLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--tools:context="com.example.xiao.myapplication.MainActivity">-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="LOGIN"-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="172dp" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="REGISTER"-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_below="@+id/button"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/editText"-->
+        <!--android:hint="  邮箱/手机号/id"-->
+        <!--android:textSize="10sp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="70dp"-->
+        <!--android:layout_alignRight="@+id/editText2"-->
+        <!--android:layout_alignEnd="@+id/editText2"-->
+        <!--android:layout_toRightOf="@+id/textView"-->
+        <!--android:layout_toEndOf="@+id/textView" />-->
+
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:ems="10"-->
+        <!--android:hint="八到二十位，包含大小写"-->
+        <!--android:textSize="10sp"-->
+        <!--android:id="@+id/editText2"-->
+        <!--android:layout_below="@+id/editText"-->
+        <!--android:layout_toRightOf="@+id/textView"-->
+        <!--android:layout_toEndOf="@+id/textView" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="用户名"-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_above="@+id/editText2"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="密码"-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_alignBottom="@+id/editText2"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+<!--</RelativeLayout>-->
